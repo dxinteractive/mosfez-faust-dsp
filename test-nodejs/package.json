@@ -1,0 +1,11 @@
+{
+  "name": "saw",
+  "version": "0.0.0",
+  "description": "midi?",
+  "main": "saw.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "easymidi": "^1.1.2"
+  }
+}
