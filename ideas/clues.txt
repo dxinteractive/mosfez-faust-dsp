@@ -1,0 +1,14 @@
+- soundfile is a UI element
+  faust/architecture/faust/gui/JSONUIDecoder.h
+
+
+faust2api
+- prepends SOUNDFILE=1 to DspFaust.cpp, executes DspFaust.cpp via
+    faust $OPTIONS $MISC_OPT -i -a api/DspFaust.cpp "$FILE" -o "$APIFOLDER/DspFaust.cpp"
+- DspFaust does fPolyEngine->buildUserInterface(SoundUI);
+- SoundUI includes a gReader (e.g. "faust/gui/LibsndfileReader.h") based on defined consts
+
+fuats2wasm
+- executes
+    faust -lang wasm-ib -cn noise -ftz 2 noise.dsp -o noisey.wasm
+- "wasm-ib" causes choice of branch in faust/compiler/libcode.cpp

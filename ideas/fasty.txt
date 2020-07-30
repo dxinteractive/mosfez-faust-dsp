@@ -1,0 +1,5 @@
+fast piano, wavy timing (slow > fast > slow)
+
+0 2 3 2 5 2  3 2 0 118 6
+ 5 5 5 5 5 5  5 5 5 5 5 5  
+ 0 0 0 0 0 0  0 0 0 0 0 0
