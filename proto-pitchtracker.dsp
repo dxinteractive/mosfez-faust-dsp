@@ -1,3 +1,6 @@
+// read: https://pdfslide.net/documents/faust-tutorial2.html
+// refer: zcr in faustlibraries
+
 import("stdfaust.lib");
 
 SH(trig,x) = (*(1 - trig) + x * trig) ~ _;
