@@ -1,4 +1,4 @@
-# mosfez-faust
+# mosfez-faust-dsp
 
 - [Faust IDE](https://faustide.grame.fr/)
 - [Faust syntax](https://faustdoc.grame.fr/manual/syntax/)
